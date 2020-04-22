@@ -1046,6 +1046,7 @@ input[type='text'] {
         display: block;
         padding: .25rem .5rem;
         font-size: 12px;
+        word-break: break-all;
 
         &:not(:last-child) {
           border-bottom: 1px dashed $gray-800;
